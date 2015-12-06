@@ -24,3 +24,7 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+function sendEmail() {
+	window.open('mailto:sienias@gmail.com?subject=subject&body=body');
+};
